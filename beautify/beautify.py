@@ -31,7 +31,7 @@ while index < len(charLst):
     index = index + 1
 
 jsFileContent = "".join(str(element) for element in charLst)
-jsFileContent = "document.write('\\" + "\n" + jsFileContent + "');"
+jsFileContent = "document.write('\\" + "\n" + jsFileContent + "\\" + "\n" + "');"
 
 file = open("file.js", "w")
 file.write(jsFileContent)

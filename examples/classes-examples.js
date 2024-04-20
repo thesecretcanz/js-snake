@@ -9,4 +9,5 @@ document.write('\
         myCar = new Car("Fiat", "2003");\
     }\
     document.getElementById("header").innerHTML = myCar.name;\
-</script>');
+</script>\
+');
