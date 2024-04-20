@@ -1,4 +1,4 @@
-file = open("beautify/file.html", "r")
+file = open("file.html", "r")
 fileContent = file.read()
 file.close()
 
@@ -33,6 +33,6 @@ while index < len(charLst):
 jsFileContent = "".join(str(element) for element in charLst)
 jsFileContent = "document.write('\\" + "\n" + jsFileContent + "');"
 
-file = open("beautify/file.js", "w")
+file = open("file.js", "w")
 file.write(jsFileContent)
 file.close()
