@@ -10,7 +10,7 @@ document.write('\
         }\
     }\
     myCar = Car("Fiat", "2003")\
-    document.getElementById("header").innerHTML = myCar.name;\
+    document.getElementById("header").innerHTML = "SOS";\
 </script>\
 \
 ');
