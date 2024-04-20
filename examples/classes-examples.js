@@ -1,5 +1,1 @@
-document.write('\
-\
-<h1>SOS</h1>\
-\
-');
+document.write('<h1>SOS</h1>');
