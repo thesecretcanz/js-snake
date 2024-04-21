@@ -3,4 +3,4 @@ function sleep(ms) {
 }
 
 console.log('Latest update 13:06');
-//sleep(5000).then(() => { console.log('Everything is working!'); });
+sleep(2000).then(() => { console.log('Done!'); });
