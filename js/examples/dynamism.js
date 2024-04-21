@@ -2,4 +2,9 @@ function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-sleep(5000).then(() => { document.getElementById("text").innerHTML = "Hello!" });
+function execute() {
+    document.getElementById("text").innerHTML = "Hello!";
+    console.log("Done!");
+}
+
+sleep(5000).then(() => { execute(); });
