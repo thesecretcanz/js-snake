@@ -1,5 +1,5 @@
-setTimeout(run(), 5000);
-            
-function run() {
-    document.getElementById("text").innerHTML = "done";
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
 }
+
+sleep(5000).then(() => { console.log('World!'); });
