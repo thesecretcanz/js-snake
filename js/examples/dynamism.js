@@ -11,4 +11,6 @@ while (true) {
     while (loop) {
         document.getElementById("text").innerHTML = loop;
     }
+
+    setTimeout(function() {}, 1000);
 }
