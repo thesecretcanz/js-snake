@@ -1,6 +1,14 @@
 '''
 C.E. - JS
 CREATE EMBEDDED JAVASCRIPT
+
+
+
+This python tools allow to nest html inside another html.
+The software take an html code (wrote inside embedded.html) and generate a 
+javascript file that can be imported inside another html file using the 
+<script src="/.../embedded.js"></script> tag.
+
 '''
 
 file = open("embedded.html", "r")
