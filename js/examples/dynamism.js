@@ -1,16 +1,5 @@
-loop = true;
-
-function starStopLoop() {
-    loop = !loop;
-}
-
-// Main loop
-while (true) {
-
-    // Nested loop
-    while (loop) {
-        document.getElementById("text").innerHTML = loop;
-    }
-
-    setTimeout(function() {}, 1000);
+setTimeout(run(), 1000);
+            
+function run() {
+    document.getElementById("text").innerHTML = "done";
 }
